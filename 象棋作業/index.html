@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .text {
+      writing-mode: vertical-lr;
+      font-size: 40px;
+      font-family: "標楷體";
+      margin: 20px;
+    }
+
+    .container {
+      width: 766px;
+      height: 840px;
+      border: 1px solid #000;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+      padding: 45px 45px;
+      box-sizing: border-box;
+
+    }
+
+    .box {
+      width: 616px;
+      height: 693px;
+      border: 1px solid #000;
+      /* margin: auto; */
+      display: flex;
+      flex-wrap: wrap;
+      /* align-items: flex-start; */
+      /* display: none; */
+      position: absolute;
+      z-index: -1;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+
+    }
+
+    .box1,
+    .box2 {
+      width: 616px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+
+
+    .info {
+      width: 614px;
+      height: 75px;
+      border: 1px solid #000;
+      text-align: center;
+      font-size: 50px;
+      font-family: "標楷體";
+      line-height: 75px;
+      display: flex;
+      justify-content: space-around;
+
+    }
+
+    .grid {
+      width: 75px;
+      height: 75px;
+      border: 1px solid #000;
+    }
+
+    .chessbox {
+      width: 100%;
+      height: 58px;
+      display: flex;
+      /* flex-wrap: wrap; */
+      /* align-items: center; */
+      justify-content: space-between;
+    }
+
+    .chess {
+      width: 58px;
+      height: 58px;
+      border: 1px solid #000;
+      border-radius: 50%;
+      background: rgb(255, 255, 255);
+      font-size: 48px;
+      font-family: "標楷體";
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="text">棋盤裡，車無輪，馬無疆，叫聲將軍提防提防</div>
+  <div class="container">
+
+    <!-- 1 -->
+    <div class="chessbox">
+      <div class="chess">車</div>
+      <div class="chess">馬</div>
+      <div class="chess">象</div>
+      <div class="chess">士</div>
+      <div class="chess">將</div>
+      <div class="chess">士</div>
+      <div class="chess">象</div>
+      <div class="chess">馬</div>
+      <div class="chess">車</div>
+    </div>
+    <!-- 2 -->
+    <div class="chessbox"></div>
+    <!-- 3 -->
+    <div class="chessbox" style="width: 600px; padding: 0 75px;">
+      <div class="chess">包</div>
+      <div class="chess">包</div>
+    </div>
+    <!-- 4 -->
+    <div class="chessbox">
+      <div class="chess">卒</div>
+      <div class="chess">卒</div>
+      <div class="chess">卒</div>
+      <div class="chess">卒</div>
+      <div class="chess">卒</div>
+    </div>
+    <!-- 5 -->
+    <div class="chessbox"></div>
+    <!-- 6 -->
+    <div class="chessbox"></div>
+    <!-- 7 -->
+    <div class="chessbox" style="color: red;">
+      <div class="chess">兵</div>
+      <div class="chess">兵</div>
+      <div class="chess">兵</div>
+      <div class="chess">兵</div>
+      <div class="chess">兵</div>
+    </div>
+    <!-- 8 -->
+    <div class="chessbox" style="width: 600px; padding: 0 75px;color: red;">
+      <div class="chess">炮</div>
+      <div class="chess">炮</div>
+    </div>
+    <!-- 9 -->
+    <div class="chessbox"></div>
+    <!-- 10 -->
+    <div class="chessbox" style="color: red;">
+      <div class="chess">俥</div>
+      <div class="chess">傌</div>
+      <div class="chess">相</div>
+      <div class="chess">仕</div>
+      <div class="chess">帥</div>
+      <div class="chess">仕</div>
+      <div class="chess">相</div>
+      <div class="chess">傌</div>
+      <div class="chess">俥</div>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="box1">
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"
+        style="background-image: linear-gradient(45deg, transparent 49.5%, #000 49.5%, #000 50.5%, transparent 50.5%);">
+      </div>
+      <div class="grid"
+        style="background-image: linear-gradient(315deg, transparent 49.5%, #000 49.5%, #000 50.5%, transparent 50.5%);">
+      </div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"
+        style="background-image: linear-gradient(315deg, transparent 49.5%, #000 49.5%, #000 50.5%, transparent 50.5%);">
+      </div>
+      <div class="grid"
+        style="background-image: linear-gradient(45deg, transparent 49.5%, #000 49.5%, #000 50.5%, transparent 50.5%);">
+      </div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+    </div>
+
+    <div class="info">
+      <p>楚河</p>
+      <p>漢界</p>
+    </div>
+    <div class="box2">
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"
+        style="background-image: linear-gradient(45deg, transparent 49.5%, #000 49.5%, #000 50.5%, transparent 50.5%);">
+      </div>
+      <div class="grid"
+        style="background-image: linear-gradient(315deg, transparent 49.5%, #000 49.5%, #000 50.5%, transparent 50.5%);">
+      </div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"
+        style="background-image: linear-gradient(315deg, transparent 49.5%, #000 49.5%, #000 50.5%, transparent 50.5%);">
+      </div>
+      <div class="grid"
+        style="background-image: linear-gradient(45deg, transparent 49.5%, #000 49.5%, #000 50.5%, transparent 50.5%);">
+      </div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+    </div>
+  </div>
+
+  <div class="text">圖畫裡，龍不吟，虎不嘯，小小書僮可笑可笑</div>
+
+</body>
+
+</html>

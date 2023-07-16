@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    body {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/bg-full.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      width: 1500px;
+      height: 800px;
+      border: 1px solid #000;
+      background: linear-gradient(grey 50%, black 50%);
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+      width: 750px;
+      height: 400px;
+    }
+
+    .col1 {
+      width: 750px;
+      height: 800px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/main.jpg);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .col1 h1,
+    .col1 p {
+      color: white;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+
+    .col2 {
+      background-image: url(./images/cloud.png);
+      background-size: 40%;
+      background-repeat: no-repeat;
+      background-position: right 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    .col2 h1,
+    .col2 p {
+      margin-left: 50px;
+      width: 50%;
+    }
+
+    .col2 h1 {
+      margin-top: 100px;
+    }
+
+    .col3 {
+      background-image: url(./images/tifa.png);
+      background-size: 40%;
+      background-repeat: no-repeat;
+      background-position: left 70px;
+    }
+
+    .col3 h1,
+    .col3 p {
+      color: white;
+    }
+
+    .col3 h1 {
+      margin-top: 100px;
+      align-self: center;
+      margin-left: 300px;
+    }
+
+    .col3 p {
+      width: 50%;
+      margin-left: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="col1">
+      <img src="./images/ps4-ff7.png" width="30%" id="ps5">
+      <h1 style="color: white;">AVAILABLE NOW</h1>
+      <P>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nobis officiis omnis sed nemo error enim
+        quidem recusandae? Nisi amet laborum laudantium est facilis, accusamus dolore quisquam laboriosam fugiat rerum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nobis officiis omnis sed nemo error enim
+        quidem recusandae? Nisi amet laborum laudantium est facilis, accusamus dolore quisquam laboriosam fugiat rerum.
+      </P>
+    </div>
+    <div class="col2">
+      <h1>Cloud</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor minus molestias expedita ex aliquid repellat
+        nostrum, recusandae, sapiente eum dignissimos magni? Adipisci consequuntur accusantium at voluptatum perferendis
+        quod sed illo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nobis officiis omnis sed nemo
+        error enim
+        quidem recusandae? Nisi amet laborum laudantium est facilis, accusamus dolore quisquam laboriosam fugiat rerum.
+      </p>
+
+    </div>
+    <div class="col3">
+      <h1>Tifa</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum in quidem blanditiis ex, labore, saepe
+        accusamus sapiente dignissimos laboriosam quae nisi sed laborum aut, fuga voluptates temporibus similique eius
+        obcaecati.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nobis officiis omnis sed nemo error
+        enim
+        quidem recusandae? Nisi amet laborum laudantium est facilis, accusamus dolore quisquam laboriosam fugiat rerum.
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
